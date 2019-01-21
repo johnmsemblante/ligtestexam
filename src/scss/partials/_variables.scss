@@ -1,0 +1,31 @@
+$black: #000000;
+$white: #ffffff;
+$gold: #e7ba2f;
+$grey: #999999;
+$dark-grey: #333333;
+
+$window-1080: 1080px;
+$window-1400: 1400px;
+
+$font-60: 60px;
+$font-24: 24px;
+$font-20: 20px;
+$font-18: 18px;
+$font-16: 16px;
+$font-14: 14px;
+$font-13: 13px;
+$font-12: 12px;
+
+%overflow-hidden-fw {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+%position-absolute-trbl {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}

@@ -1,0 +1,9 @@
+.header__wrapper{
+	@extend %overflow-hidden-fw;
+	text-align: center;
+	padding: 35px 0 27px;
+
+	.logo{
+		display: inline-block;
+	}
+}

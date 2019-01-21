@@ -1,0 +1,69 @@
+.footer{
+	@extend %overflow-hidden-fw;
+	background: $black;
+	padding: 15px 0;
+
+	.inner__footer{
+		@extend %overflow-hidden-fw;
+		max-width: $window-1080;
+		margin: auto;
+
+		&-left,
+		&-right{
+			width: 50%;
+			height: auto;
+			overflow: hidden;
+			color: $white;
+		}
+
+		&-left{
+			float: left;
+
+			ul{
+				padding: 0;
+				margin: 0;
+
+				li{
+					list-style: none;
+					font-size: $font-13;
+					display: inline-block;
+					margin: 0 15px 0 0;
+
+					a{
+						color: $white;
+						text-decoration: none;
+						@include transition(all .2s);
+
+						&:hover{
+							color: $gold;
+						}
+					}
+				}
+			}
+		}
+
+		&-right{
+			float: right;
+			font-size: $font-14;
+			text-align: right;
+		}
+	}
+}
+
+.backtotopwrapper{
+	@extend %overflow-hidden-fw;
+	max-width: $window-1080;
+	margin: auto;
+	position: relative;
+	height: auto;
+	padding: 20px 0;
+}
+
+#backtotop{
+	background: url('../images/spritebg.png') no-repeat 0 -139px;
+	width: 24px;
+	height: 14px;
+	position: relative;
+	float: right;
+	cursor: pointer;
+}

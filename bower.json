@@ -1,0 +1,54 @@
+{
+  "name": "admin",
+  "version": "2019.01.2025",
+  "description": "Admin Templates",
+  "main": "dist/index.html",
+  "authors": [
+    "Titan"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Gulp",
+    "Bower",
+    "Sass",
+    "Titan"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "font-awesome": "^4.7.0",
+    "bootstrap": "^3.3.7",
+    "slick-carousel": "^1.6.0",
+    "chocolat": "^0.4.14",
+    "elegant-icons": "*",
+    "fancybox": "^2.1.5",
+    "matchHeight": "^0.7.0",
+    "scrollreveal": "^3.3.2",
+    "parallax.js": "^1.4.2",
+    "scrollmagic": "^2.0.5",
+    "gsap": "^1.19.0",
+    "parallax-vanilla": "^1.0.2",
+    "smoothscroll-for-websites": "^1.4.5",
+    "jquery.stellar": "^0.6.2",
+    "jquery.mb.ytplayer": "^3.0.10",
+    "jquery-touchswipe": "^1.6.18",
+    "sidr": "^2.2.1",
+    "jssocials": "^1.4.0",
+    "jquery-ias": "^2.2.2"
+  },
+  "resolutions": {
+    "jquery": ">=3.1.1"
+  },
+  "devDependencies": {
+    "readmore-js": "^2.2.0"
+  }
+}
